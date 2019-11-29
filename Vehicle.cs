@@ -9,7 +9,8 @@ namespace AutomationStudyGit
         public string Make { get; set; }
         public string Model { get; set; }
         public string Registration { get; set; }
-        public string Year { get; set; }
+        public string FabricationYear { get; set; }
         public int CurrentValue { get; set; }
+        public bool InStock { get; set; }
     }
 }

@@ -11,15 +11,15 @@ namespace AutomationStudyGit
             Make = vehicleModel.Make;
             Model = vehicleModel.Model;
             Registration = vehicleModel.Registration;
-            Year = vehicleModel.Year;
+            FabricationYear = vehicleModel.FabricationYear;
             CurrentValue = vehicleModel.CurrentValue;
         }
-        public Car(string make, string model, string registration, string year, int currentValue)
+        public Car(string make, string model, string registration, string fabricationYear, int currentValue)
         {
             Make = make;
             Model = model;
             Registration = registration;
-            Year = year;
+            FabricationYear = fabricationYear;
             CurrentValue = currentValue;
         }
 
@@ -30,7 +30,7 @@ namespace AutomationStudyGit
 
         public string ReturnCarYear()
         {
-            return Year;
+            return FabricationYear;
         }
     }
 }

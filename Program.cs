@@ -50,7 +50,7 @@ namespace AutomationStudyGit
                 Make = "Ford",
                 Model = "Focus",
                 Registration = "CJ-99-AAA",
-                Year = "2018",
+                FabricationYear = "2018",
                 CurrentValue = 10000,
             };
             return model;
