@@ -17,6 +17,23 @@ namespace AutomationStudyGit
             {
                 Console.WriteLine(elem);
             }
+
+            List<string> namesStartingWithVowels = ls.ReturnElementsStartingWithVowels(names);
+
+            Console.WriteLine("List with names starting with vowels:");
+            foreach (var elem in namesStartingWithVowels)
+            {
+                Console.WriteLine(elem);
+            }
+
+
+            List<string> namesStartingWithConsonant = ls.ReturnElementsStartingWithConsonant(names);
+
+            Console.WriteLine("List with names starting with consonant:");
+            foreach (var elem in namesStartingWithConsonant)
+            {
+                Console.WriteLine(elem);
+            }
         }
     }
 }
