@@ -10,7 +10,7 @@ namespace AutomationStudyGit
         {
             return "All the info of the car: \n" +
                 "Make = " + car.Make + "\nModel = " + car.Model + "\nRegistration = " + car.Registration
-                + "\nYear = " + car.ReturnCarYear() + "\nCurrent Value = " + car.ReturnCarCurrentValue();
+                + "\nFabrication Year = " + car.ReturnCarYear() + "\nCurrent Value = " + car.ReturnCarCurrentValue();
         }
     }
 }
